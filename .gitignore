@@ -1,0 +1,20 @@
+# Local and credential files
+.env
+.env.*
+*.local
+*.token
+*secret*.json
+google_token.json
+google_client_secret.json
+credentials.json
+
+# Google Sheet data exports are excluded by default
+exports/
+*.csv
+*.xlsx
+
+# Tool/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
