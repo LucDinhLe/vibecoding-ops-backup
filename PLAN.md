@@ -9,7 +9,7 @@ Back up the reusable coding/logging conventions to a private GitHub repository, 
 - [x] **P1 — Confirm GitHub access.** Verify the authenticated account and private-repository permission.
 - [x] **P2 — Define safe backup scope.** Back up code, conventions, schema, plan, and progress. Exclude live Sheet rows and credentials.
 - [x] **P3 — Build reusable ErrorLog mechanism.** Create an idempotent tab initializer, central logger, context sanitization, concurrency lock, and local fallback.
-- [ ] **P4 — Create and push private repository.** Commit the artifact and verify it from GitHub.
+- [x] **P4 — Create and push private repository.** Commit the artifact and verify it from GitHub.
 - [ ] **P5 — Inspect the real project.** Obtain the Apps Script source/repository and preserve its current Git/draft state.
 - [ ] **P6 — Run baseline.** Reproduce the current build/test or manually exercise the Apps Script in a safe copy.
 - [ ] **P7 — Integrate logging.** Patch `doPost`, `openById`, missing `Responses`, `ensureHeaders_`, `appendRow`, and `flatten_` paths without changing business rules.
